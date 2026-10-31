@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My E-Portfolio</title>
+    <link rel="stylesheet" href="Portfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <!-- 9:16 MANDATORY VIDEO INTRO (YOUTUBE)       -->
+    <div id="video-intro-overlay">
+        <div id="video-widget" class="video-widget">
+            
+            <!-- Replace YOUR_VIDEO_ID_HERE with your actual YouTube Video ID -->
+            <iframe 
+                id="intro-video" 
+                src="https://www.youtube.com/embed/Cf6EPjA1OSw?si=GW49wz4biKQM8g1r" 
+                frameborder="0" 
+                allow="autoplay; encrypted-media" 
+                allowfullscreen>
+            </iframe>
+            
+            <!-- The Skip Button is now fully visible by default -->
+            <button id="skip-intro-btn">Skip Ads &times;</button>
+        </div>
+    </div>
+
+    <!-- Header Navigation -->
+    <header>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About Me</a>
+            <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Main Content Area -->
+    <main class="container">
+
+       <!-- Home Page / Hero Section -->
+    <section id="home">
+        <div class="hero glass-panel">
+            <div class="hero-content">
+                <h1>Hi, I'm Aldrin.</h1>
+                <h2>Web Developer & Programmer</h2>
+                <p>I build clean, responsive, and user-friendly web experiences.</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- About Me Section -->
+        <section id="about">
+            <h2>About Me</h2>
+            <div class="about-grid">
+                <div class="about-image-box glass-panel">
+                    <img class="Profile" src="Drino.png" alt="Profile Picture">
+                </div>
+                <div class="about-text glass-panel">
+                    <p>Name: Aldrin T. Aala</p>
+                    <p>I am a passionate Computer Science student at City College of Calamba with a strong foundation in front-end web development. I enjoy turning complex problems into simple, beautiful, and intuitive designs. Currently, I am building my skills in HTML, CSS, JavaScript, and Python, while also exploring UI/UX design and digital graphics using Canva.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education">
+            <h2>Education</h2>
+            <ul class="education-list glass-panel">
+                <li>Bachelor of Science in Computer Science - City College of Calamba (2024 - 2028)</li>
+                <li>Senior High School - Science Technology Engineering and Mathematics (STEM) - Looc Integrated School (2022 - 2024)</li>
+                <li>High School - Looc Integrated School (2018 - 2022)</li>
+                <li>Elementary School - Uwisan Elementary School (2011 - 2018)</li>
+            </ul>
+        </section>
+
+        <!-- Philosophy Section -->
+        <section id="philosophy">
+            <h2>Philosophy</h2>
+            <div class="glass-panel" style="padding: 20px;">
+                <p class="philosophy-text">I believe in creating intuitive, user-centric digital experiences that solve real-world problems through clean code and thoughtful design principles.</p>
+                <p class="philosophy-text">Continuous learning and adaptation are at the core of my professional journey.</p>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <h2>My Projects</h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <article class="project-card glass-panel">
+                    <div class="project-img-box"><img class="project-image1" src="Images/WarehouseHCI.png" alt="Project Image"></div>
+                    <div class="project-info">
+                        <h3>Warehouse System</h3>
+                        <p>A web-based inventory management system designed to streamline warehouse operations and improve efficiency.</p>
+                        <p>Technologies used: HTML, CSS, JavaScript</p>
+                    </div>
+                </article>
+                <!-- Project 2 -->
+                <article class="project-card glass-panel">
+                    <div class="project-img-box"><img class="project-image2" src="Images/BrewHaven.png" alt="Project Image"></div>
+                    <div class="project-info">
+                        <h3>Brew Haven - Coffee Shop Website</h3>
+                        <p>A modern, responsive website for a local coffee shop, featuring an online menu and reservation system.</p>
+                        <p>Technologies used: HTML, CSS, JavaScript, MySQL</p>
+                    </div>
+                </article>
+                <!-- Project 3 -->
+                <article class="project-card glass-panel">
+                    <div class="project-img-box"><img class="project-image3" src="Images/Flyer.png" alt="Project Image"></div>
+                    <div class="project-info">
+                        <h3>Brew Haven - Flyer Design</h3>
+                        <p>A Flyer for promoting Brew Haven's products and services.</p>
+                        <p>Technologies used: Canva</p>
+                    </div>
+                </article>
+                <!-- Project 4 -->
+                <article class="project-card glass-panel">
+                    <div class="project-img-box"><img class="project-image5" src="Images/POSTER PROMOTION.png" alt="Project Image"></div>
+                    <div class="project-info">
+                        <h3>Brew Haven - Poster Design</h3>
+                        <p>A poster for promoting Brew Haven's products and services.</p>
+                        <p>Technologies used: Canva</p>
+                    </div>
+                </article>
+                <!-- Project 5 -->
+                <article class="project-card glass-panel">
+                    <div class="project-img-box"><img class="project-image5" src="Images/Banner Ad.png" alt="Project Image"></div>
+                    <div class="project-info">
+                        <h3>Brew Haven - Banner Ad Design</h3>
+                        <p>A banner ad for promoting Brew Haven's products and services.</p>
+                        <p>Technologies used: Canva</p>
+                    </div>
+                </article>
+                <!-- Project 6 -->
+                <article class="project-card glass-panel">
+                    <div class="project-img-box"><img class="project-image6" src="Images/Newsletter graphics.png" alt="Project Image"></div>
+                    <div class="project-info">
+                        <h3>Brew Haven - Newsletter Graphics</h3>
+                        <p>Newsletter graphics for promoting Brew Haven's products and services.</p>
+                        <p>Technologies used: Canva</p>
+                    </div>
+                </article>
+                <!-- Project 7 -->
+                <article class="project-card glass-panel">
+                    <div class="project-img-box"><img class="project-image7" src="Images/Social Media Post.png" alt="Project Image"></div>
+                    <div class="project-info">
+                        <h3>Brew Haven - Social Media Graphics</h3>
+                        <p>Social media graphics for promoting Brew Haven's products and services.</p>
+                        <p>Technologies used: Canva</p>
+                    </div>
+                </article>
+                <!-- Project 8 -->
+                <article class="project-card glass-panel">
+                    <div class="project-img-box"><img class="project-image8" src="Images/Event 1 PROMOTION.png" alt="Project Image"></div>
+                    <div class="project-info">
+                        <h3>Brew Haven - Event 1 Promotion</h3>
+                        <p>A flyer 1 for promoting Brew Haven's products and services.</p>
+                        <p>Technologies used: Canva</p>
+                    </div>
+                </article>
+                <!-- Project 9 -->
+                <article class="project-card glass-panel">
+                    <div class="project-img-box"><img class="project-image9" src="Images/Event 2 PROMOTION.png" alt="Project Image"></div>
+                    <div class="project-info">
+                        <h3>Brew Haven - Event 2 Promotion</h3>
+                        <p>A flyer 2 for promoting Brew Haven's products and services.</p>
+                        <p>Technologies used: Canva</p>
+                    </div>
+                </article>
+                <!-- Project 10 -->
+                <article class="project-card glass-panel">
+                    <div class="project-img-box"><img class="project-image10" src="Images/BOOK COVER.png" alt="Project Image"></div>
+                    <div class="project-info">
+                        <h3>Brew Haven - Book Cover Design</h3>
+                        <p>A book cover design for a local coffee shop, featuring an online menu and reservation system.</p>
+                        <p>Technologies used: Canva</p>
+                    </div>
+                </article>
+                <!-- Project 11 -->
+                <article class="project-card glass-panel">
+                    <div class="project-img-box"><img class="project-image11" src="Images/Logo.png" alt="Project Image"></div>
+                    <div class="project-info">
+                        <h3>Logo Design</h3>
+                        <p>A simple yet effective logo design for representing myself.</p>
+                        <p>Technologies used: Canva</p>
+                    </div>
+                </article>
+                <!-- Project 12 -->
+                <article class="project-card glass-panel">
+                    <div class="project-img-box"><img class="project-image12" src="Images/Badge.png" alt="Project Image"></div>
+                    <div class="project-info">
+                        <h3>Badge Design</h3>
+                        <p>A badge style design of the logo.</p>
+                        <p>Technologies used: Canva</p>
+                    </div>
+                </article>
+                <!-- Project 13 -->
+                <article class="project-card glass-panel">
+                    <div class="project-img-box"><img class="project-image13" src="Images/Horizontal.png" alt="Project Image"></div>
+                    <div class="project-info">
+                        <h3>Horizontal Design</h3>
+                        <p>A horizontal design of the logo.</p>
+                        <p>Technologies used: Canva</p>
+                    </div>
+                </article>
+                <!-- Project 14 -->
+                <article class="project-card glass-panel">
+                    <div class="project-img-box"><img class="project-image14" src="Images/Vertical.png" alt="Project Image"></div>
+                    <div class="project-info">
+                        <h3>Vertical Design</h3>
+                        <p>A vertical design of the logo.</p>
+                        <p>Technologies used: Canva</p>
+                    </div>
+                </article>
+                <!-- Project 15 -->
+                <article class="project-card glass-panel">
+                    <div class="project-img-box"><img class="project-image15" src="Images/Mood Board.png" alt="Project Image"></div>
+                    <div class="project-info">
+                        <h3>Mood Board Design</h3>
+                        <p>A mood board design for logo, badge, and horizontal/vertical designs.</p>
+                        <p>Technologies used: Canva</p>
+                    </div>
+                </article>
+                <!-- Project 16 -->
+                <article class="project-card glass-panel">
+                    <div class="project-img-box"><img class="project-image16" src="Images/Typography.png" alt="Project Image"></div>
+                    <div class="project-info">
+                        <h3>Typography Design</h3>
+                        <p>A simple representation of typography.</p>
+                        <p>Technologies used: Canva</p>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <!-- Technical Skills -->
+                <div class="skills-column glass-panel" style="padding: 20px;">
+                    <h3>Technical Skills</h3>
+                    <ul class="skills-list">
+                        <li><i class="fa-brands fa-html5"></i> HTML</li>
+                        <li><i class="fa-brands fa-css3-alt"></i> CSS</li>
+                        <li><i class="fa-brands fa-js"></i> JavaScript</li>
+                        <li><i class="fa-brands fa-python"></i> Python</li>
+                        <li><i class="fa-brands fa-git"></i> Version Control (Git)</li>
+                    </ul>
+                </div>
+                <!-- Soft Skills -->
+                <div class="skills-column glass-panel" style="padding: 20px;">
+                    <h3>Soft Skills</h3>
+                    <ul class="skills-list">
+                        <li><i class="fa-solid fa-lightbulb"></i> Problem Solving</li>
+                        <li><i class="fa-solid fa-users"></i> Team Collaboration</li>
+                        <li><i class="fa-solid fa-clock"></i> Time Management</li>
+                        <li><i class="fa-solid fa-sync-alt"></i> Adaptability</li>
+                        <li><i class="fa-solid fa-laptop"></i> Computing</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer containing Contact -->
+    <footer id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <ul class="contact-list glass-panel" style="padding: 20px;">
+                <li>
+                    Email: <a href="mailto:aldrin12aala@gmail.com">aldrin12aala@gmail.com</a>
+                </li>
+                <li>
+                    GitHub: <a href="https://github.com/AA-drin" target="_blank" rel="noopener noreferrer">AA-drin</a>
+                </li>
+                <li>
+                    Facebook: <a href="https://facebook.com/its.Drino" target="_blank" rel="noopener noreferrer">Aldrin Aala</a>
+                </li>
+                <li>
+                    Phone: +63 970 236 0859
+                </li>
+                <li>
+                    Location: Uwisan, Calamba City, Laguna, Philippines
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+       <!-- YouTube Video Intro Logic -->
+    <script>
+        // 1. Load the YouTube API
+        var tag = document.createElement('script');
+        tag.src = "https://www.youtube.com/iframe_api";
+        var firstScriptTag = document.getElementsByTagName('script')[0];
+        firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+        let player;
+        let widget;
+        let overlay;
+
+        // 2. Initialize the player
+        function onYouTubeIframeAPIReady() {
+            player = new YT.Player('intro-video', {
+                events: {
+                    'onReady': onPlayerReady,
+                    'onStateChange': onPlayerStateChange
+                }
+            });
+        }
+
+        function onPlayerReady(event) {
+            console.log("YouTube Player is ready.");
+        }
+
+        // 3. Listen for when the video ends
+        function onPlayerStateChange(event) {
+            if (event.data == YT.PlayerState.ENDED) {
+                minimizeVideo();
+            }
+        }
+
+        // 4. Setup page load
+        document.addEventListener('DOMContentLoaded', () => {
+            overlay = document.getElementById('video-intro-overlay');
+            widget = document.getElementById('video-widget');
+            const skipBtn = document.getElementById('skip-intro-btn');
+
+            document.body.classList.add('video-playing');
+
+            // When they click skip, minimize it
+            skipBtn.addEventListener('click', minimizeVideo);
+        });
+
+        function minimizeVideo() {
+            // --- THE ULTIMATE FIX ---
+            // Instead of just pausing, we completely remove the YouTube iframe 
+            // and replace it with a blank one. This guarantees the video and 
+            // all background audio stops instantly.
+            const iframe = document.getElementById('intro-video');
+            if (iframe) {
+                iframe.src = ""; 
+            }
+
+            // Fade out overlay
+            overlay.classList.add('fade-out-overlay');
+            
+            // Unlock scroll
+            document.body.classList.remove('video-playing');
+
+            // Shrink widget
+            widget.classList.add('minimized');
+
+            // Calculate random position
+            const widgetWidth = 140;
+            const widgetHeight = 249;
+            const padding = 20; 
+
+            const maxX = window.innerWidth - widgetWidth - padding;
+            const maxY = window.innerHeight - widgetHeight - padding;
+
+            const randomX = Math.max(padding, Math.floor(Math.random() * maxX));
+            const randomY = Math.max(padding, Math.floor(Math.random() * maxY));
+
+            widget.style.left = `${randomX}px`;
+            widget.style.top = `${randomY}px`;
+            
+            // Bring to front if clicked
+            widget.addEventListener('click', () => {
+                widget.style.zIndex = 10000;
+            });
+        }
+    </script>
+</body>
+</html>
